@@ -17,4 +17,25 @@ dependencies = [
     "langchain-community>=0.3.31",
     "pypdf>=6.1.1",
     "faiss-cpu>=1.12.0",
+    "beautifulsoup4>=4.14.2",
+    "tiktoken>=0.11.0",
+    "openai>=1.108.1",
+    "unstructured>=0.18.15",
+    "nltk>=3.9.2",
+    "fastapi>=0.119.0",
+    "jinja2>=3.1.6",
+    "uvicorn>=0.37.0",
+    "streamlit>=1.50.0",
+    "streamlit-chat>=0.1.1",
+    "tqdm>=4.67.1",
+    "firecrawl-py>=4.3.7",
+    "langsmith>=0.4.29",
+    "pillow>=11.3.0",
+    "certifi>=2025.8.3",
+    "langchain-chroma>=0.2.6",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
 ]
